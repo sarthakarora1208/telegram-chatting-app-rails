@@ -2,6 +2,10 @@
 
 A brief description of what this project does and who it's for
 
+## Demo
+
+[https://youtu.be/f0x1tXyJoNc](https://youtu.be/f0x1tXyJoNc)
+
 ## Requirements
 
 - [x] You can build this in anyway or form you'd like as long as it is functional.
@@ -16,9 +20,35 @@ A brief description of what this project does and who it's for
 - [x] Build any kind of notification mechanism, the more realtime, the better.
 - [] Use Vue.js as a Javascript framework.
 
-## Demo
+### Tech Stack
 
-[https://youtu.be/f0x1tXyJoNc](https://youtu.be/f0x1tXyJoNc)
+- React
+- Typesript
+- Apollo
+- GraphQL
+- Ruby
+- Rails
+- Redis
+- Telegram Bot
+- SQLite3
+- FactoryBot
+- RSpec
+
+## React
+
+The frontend is built using
+
+## Telegram
+
+## GraphQL, Apollo
+
+### Mutationns
+
+### Queries
+
+### Subscriptions
+
+## Testing
 
 ## Architecture Diagram
 
