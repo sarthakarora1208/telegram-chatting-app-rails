@@ -13,8 +13,8 @@ A brief description of what this project does and who it's for
 - [x] We expect to see tests for your Ruby code.
 - [x] We expect to see some form of documentation.
 - [x] Build usable a UI/UX.
-- [x]Build any kind of notification mechanism, the more realtime, the better.
-- []Use Vue.js as a Javascript framework.
+- [x] Build any kind of notification mechanism, the more realtime, the better.
+- [] Use Vue.js as a Javascript framework.
 
 ## Demo
 
