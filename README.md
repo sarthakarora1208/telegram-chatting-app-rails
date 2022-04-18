@@ -6,6 +6,10 @@ Rasayel X Sarthak Arora
 
 [https://youtu.be/f0x1tXyJoNc](https://youtu.be/f0x1tXyJoNc)
 
+## Architecture Diagram
+
+![telegram-bot](https://user-images.githubusercontent.com/42542489/163867943-42b4912e-5b2c-483d-8eaf-59aa59e1d9a7.png)
+
 ## Requirements
 
 - [x] You can build this in anyway or form you'd like as long as it is functional.
@@ -95,9 +99,11 @@ The [bot.rb](./chatting-api/app/telegram/bot.rb) file does the following
 I wrote a test for the getMessagesForChatroom Query
 ![Screenshot 2022-04-19 at 12 50 11 AM](https://user-images.githubusercontent.com/42542489/163871967-426882ef-ca40-4326-adc1-e251251930b8.png)
 
-## Architecture Diagram
+## Notifications
 
-![telegram-bot](https://user-images.githubusercontent.com/42542489/163867943-42b4912e-5b2c-483d-8eaf-59aa59e1d9a7.png)
+Whenever a bot gets a new message, a notification pops up.
+
+<img width="217" alt="Screenshot 2022-04-18 at 8 11 56 PM" src="https://user-images.githubusercontent.com/42542489/163873634-75ef240b-ff81-497b-a5cd-cc8a0ece71da.png">
 
 ## Installation
 
