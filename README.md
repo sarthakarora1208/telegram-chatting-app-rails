@@ -1,6 +1,6 @@
 # Telegram Chatting Application
 
-A brief description of what this project does and who it's for
+Rasayel X Sarthak Arora
 
 ## Demo
 
@@ -23,7 +23,7 @@ A brief description of what this project does and who it's for
 ### Tech Stack
 
 - React
-- Typesript
+- Typescript
 - Apollo
 - GraphQL
 - Ruby
@@ -36,19 +36,64 @@ A brief description of what this project does and who it's for
 
 ## React
 
-The frontend is built using
+The frontend is built using React and Typescript. We use Apollo to interact with GraphQL
 
-## Telegram
+## Rails
+
+- The backend is powered by rails, sqlite & redis.
+- Redis + Actioncable for websockets
+- RSpec + FactoryBot for testing
+- telegram/bot gem for interacting with the bot
+
+## Database Schema
+
+- User
+  - name: string
+  - username: string
+  - telegram_id: string
+  - token: string
+  - is_bot: boolean
+- Chatroom
+  - name: string
+- Message
+  - text: string
+  - is_media: boolean
+  - media_type: string
+  - user_id: integer
+  - chatroom_id: integer
 
 ## GraphQL, Apollo
 
-### Mutationns
+### Mutations
+
+![code](https://user-images.githubusercontent.com/42542489/163871793-d95acdcb-4b8e-4a09-914a-184d1c3aedd2.png)
 
 ### Queries
 
+Getting Chatrooms For User
+
+![code1](https://user-images.githubusercontent.com/42542489/163872188-d9b2553c-a3d7-4f01-9cd5-b457f95fe035.png)
+
+Getting Messages for User
+
+![code2](https://user-images.githubusercontent.com/42542489/163872496-cb903676-2f3e-4e4c-b32e-46182dde3ec1.png)
+
 ### Subscriptions
 
+![code3](https://user-images.githubusercontent.com/42542489/163872798-e6b2ee04-6694-437a-a245-b9b0c97592b4.png)
+
+## Telegram
+
+The [bot.rb](./chatting-api/app/telegram/bot.rb) file does the following
+
+- Create new user for new chat
+- Create new chatroom for new chat
+- Add user messages to database
+
 ## Testing
+
+I wrote a test for the getMessagesForChatroom Query
+![Screenshot 2022-04-19 at 12 50 11 AM](https://user-images.githubusercontent.com/42542489/163871967-426882ef-ca40-4326-adc1-e251251930b8.png)
 
 ## Architecture Diagram
 
@@ -56,7 +101,13 @@ The frontend is built using
 
 ## Installation
 
-Install
+### Chatting Api
+
+To get the rails app running locally follow the instructions at [chatting-api/README.md](../chatting-api/README.md)
+
+### Chatting Frontend
+
+To get the React Frontend running locally follow the instructions at [chatting-frontend/README.md](../chatting-frontend/README.md)
 
 ## Authors
 
