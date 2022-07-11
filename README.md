@@ -1,6 +1,5 @@
 # Telegram Chatting Application
 
-Rasayel X Sarthak Arora
 
 ## Demo
 
